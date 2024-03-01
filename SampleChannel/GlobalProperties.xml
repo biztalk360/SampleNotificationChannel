@@ -1,7 +1,0 @@
-﻿<prop:GlobalProperties xmlns:bsd="http://www.biztalk360.com/alarms/notification/basetypes"
-                       xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
-                       xmlns:prop="http://www.biztalk360.com/alarms/notification/properties">
-  <Section Name="channel-settings" DisplayName="File Settings">
-    <TextBox Name="channel-Name" DisplayName="Channel Name" IsMandatory="true" Tooltip="The Channel Name." DefaultValue="Sample"  Type="text"/>
-  </Section>
-</prop:GlobalProperties>
