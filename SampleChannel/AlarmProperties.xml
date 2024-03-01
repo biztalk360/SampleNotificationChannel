@@ -1,6 +1,0 @@
-﻿<prop:AlarmProperties xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
-                      xmlns:prop="http://www.biztalk360.com/alarms/notification/properties"
-                      Name="alarm-settings"
-                      DisplayName="Alarm Settings">
-  <TextBox Name="alarm-Name" DisplayName="Alarm Name" IsMandatory="false" Disabled="false" Tooltip="Alarm Name" DefaultValue="Test Alarm" Type="text" MaxLength="1000" />
-</prop:AlarmProperties>
