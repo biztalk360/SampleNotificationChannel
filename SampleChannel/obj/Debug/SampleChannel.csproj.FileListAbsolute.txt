@@ -1,0 +1,11 @@
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\bin\Debug\SampleChannel.dll.config
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\bin\Debug\SampleChannel.dll
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\bin\Debug\SampleChannel.pdb
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\bin\Debug\B360.Common.EntityObjects.dll
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\bin\Debug\B360.Notifier.Common.dll
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\bin\Debug\Newtonsoft.Json.dll
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\bin\Debug\System.ValueTuple.dll
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\obj\Debug\SampleChannel.csproj.CoreCompileInputs.cache
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\obj\Debug\SampleChannel.csproj.CopyComplete
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\obj\Debug\SampleChannel.dll
+D:\ChromeDownloads\SampleNotificationChannel-master\SampleNotificationChannel-master\SampleChannel\obj\Debug\SampleChannel.pdb

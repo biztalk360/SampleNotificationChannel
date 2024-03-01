@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SampleChannel</RootNamespace>
     <AssemblyName>SampleChannel</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,24 +31,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="B360.Common.EntityObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=170b124be8a0c70e" />
     <Reference Include="B360.Notifier.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=170b124be8a0c70e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Solution_Items\B360.Notifier.Common.dll</HintPath>
     </Reference>
-    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Solution_Items\log4net.dll</HintPath>
-    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Solution_Items\Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:\Program Files\IIS\Microsoft Web Deploy V3\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -55,19 +53,19 @@
     <Compile Include="Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleChannel.cs" />
+    <Compile Include="SampleChannelSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ReadMe.txt" />
-    <EmbeddedResource Include="AlarmProperties.xml" />
-    <EmbeddedResource Include="GlobalProperties.xml" />
+    <Content Include="Solution_Items\B360.Common.EntityObjects.dll" />
     <Content Include="Solution_Items\B360.Notifier.Common.dll" />
-    <Content Include="Solution_Items\log4net.dll" />
     <Content Include="Solution_Items\Newtonsoft.Json.dll" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Schemas\AlarmProperties.xsd" />
-    <None Include="Schemas\BaseTypes.xsd" />
-    <None Include="Schemas\GlobalProperties.xsd" />
+    <EmbeddedResource Include="AlarmProperties.json" />
+    <None Include="app.config" />
+    <EmbeddedResource Include="GlobalProperties.json" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

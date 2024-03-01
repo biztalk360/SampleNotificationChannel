@@ -1,0 +1,19 @@
+[
+  {
+    "name": "channelSettings",
+    "displayName": "Channel Settings",
+    "data": [
+      {
+        "name": "channelName",
+        "displayName": "Channel Name",
+        "isMandatory": "false",
+        "isSensitiveField": "false",
+        "disabled": "false",
+        "type": "input",
+        "maxLength": "3000",
+        "Items": [],
+        "placeholder": ""
+      }
+    ]
+  }
+]

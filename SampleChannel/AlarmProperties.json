@@ -1,0 +1,14 @@
+[
+  {
+    "name": "alarmSettings",
+    "displayName": "Alarm Settings :",
+    "isMandatory": "false",
+    "disabled": "false",
+    "tooltip": "",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "3000",
+    "value": "",
+    "Items": []
+  }
+]
